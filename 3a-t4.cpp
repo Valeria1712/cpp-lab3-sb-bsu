@@ -1,14 +1,14 @@
-#include&lt;iostream&gt;
+#include<iostream>;
 using namespace std;
 int main()
 {
 	int k, i = 1, sum_k = 0, number;
-	cout& lt; &lt; &quot; Enter the amount of integers to sum = &quot;; cin& gt; &gt; k;
+	cout << "Enter the amount of integers to sum = " cin >> k;
 	do {
-		cout& lt; &lt; &quot; Enter integer nr.& quot; &lt; &lt; i& lt; &lt; &quot; : &quot;;
-		cin& gt; &gt; number;
+		cout << "Enter integer nr. " << i << ": ";
+		cin >> number;
 		sum_k += number; i++;
-	} while (i& lt; = k);
-	cout& lt; &lt; &quot; The total sum of& quot; &lt; &lt; k& lt; &lt; &quot; integers is : &quot; &lt; &lt; sum_k;
+	} while (i += k);
+	cout << "The total sum of " << k << " integers is: " << sum_k;
 	return 0;
 }
